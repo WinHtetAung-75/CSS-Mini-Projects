@@ -1,0 +1,88 @@
+
+.table-container{
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 800px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px var(--shadow-color);
+}
+
+.table{
+    width: 800px;
+    border-collapse: collapse;
+    border-radius:30px;
+
+}
+
+.table thead th{
+    height: 50px;
+    background-color:var(--blue);
+    color: white;
+    font-family: sans-serif;
+    border:none;
+    padding: 10px 20px; 
+}
+
+.table tbody tr{
+    background-color: white;
+}
+
+.table tbody td{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.159);
+    padding:10px 20px;
+}
+
+/* Commom Use */
+.table tbody tr:nth-child(even){
+    background-color: var(--blue-row);
+}
+
+.table tbody tr:hover{
+    background-color: var(--blue-row);
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 600;
+    box-shadow: inset 10px 10px 5px var(--blue-row);
+}
+
+
+/*------ IMPORTANT PART---- */
+.table.table-red tbody tr:hover{
+    background-color: var(--red-row);
+    box-shadow: inset 10px 10px 5px var(--red-row);
+}
+
+.table.table-yellow tbody tr:hover{
+    background-color: var(--yellow-row);
+    box-shadow: inset 10px 10px 5px var(--yellow-row);
+}
+
+.table-red thead th{
+    background-color: var(--red);
+}
+
+.table-red tbody tr:nth-child(even){
+    background-color: var(--red-row);
+}
+
+.table-yellow thead th{
+    background-color:var(--yellow);
+}
+
+.table-yellow tbody tr:nth-child(even){
+    background-color: var(--yellow-row);
+}
+
+.job-describe{
+    background-color: rgba(255, 255, 0, 0.21);
+}
+
+.jd-r{
+    background-color: rgba(255, 0, 0, 0.209);
+}
+
+.jd-b{
+    background-color: rgba(0, 0, 255, 0.22);
+}

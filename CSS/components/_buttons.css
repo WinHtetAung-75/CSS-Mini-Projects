@@ -1,0 +1,147 @@
+
+.btn-container{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 120px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+.blue-btn{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.red-btn{
+    background-color: var(--red);
+    border:1px solid var(--red);
+}
+
+.raised-btn{
+    background-color: white;
+    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.302);
+}
+
+.solid-btn-color{
+    color: white;
+}
+
+.rounded-pill{
+    border-radius: 50px;
+    text-align: left;
+    padding: 10px;
+}
+
+.icon-left{
+    margin-right: 10px;
+    /* text-shadow: 5px 5px 3px black; */
+}
+/* ------------------------------------------------------- */
+
+.smooth-blue{
+    background-color: rgba(0, 0, 255, 0.217);
+    color:var(--blue);
+    border: 1px solid rgba(0, 0, 255, 0.217);
+}
+
+.smooth-red{
+    background-color: rgba(255, 0, 0, 0.211);
+    color: red;
+    border: rgba(255, 0, 0, 0.211);
+}
+
+/* ----------------------------------------------------- */
+
+.outline-blue{
+    background-color: transparent;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.outline-red{
+    background-color: transparent;
+    color: var(--red);
+    border: 1px solid var(--red);
+}
+/* ------------------------ */
+
+.raised-blue{
+    color:var(--blue);
+}
+
+.raised-red{
+    color: var(--red);
+}
+
+/* ----------------------------- */
+
+.action-btn{
+    width: 150px;
+    margin: 10px 14px;
+}
+
+.action-icon{
+    margin-right: 30px;
+}
+
+/* ----------------------------------------- */
+
+.circle-btn{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+.square-btn{
+    border-radius: 10px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.circle-btn , .square-btn{
+    margin: 10px 19px;
+}
+
+/* -------------------------------------------- */
+
+.noti-btn{
+    position: relative;
+}
+
+.noti-show{
+    position: absolute;
+    padding: 1px 3px;
+    background-color: red;
+    top: 0;
+    right: 0;
+    font-size: smaller;
+    border-radius: 10px;
+}
+
+.noti-show-pink{
+    background-color: rgba(15, 87, 142, 0.604);
+}
+
+.noti-show-dark{
+    background-color: rgba(0, 0, 0, 0.718);
+}
+
+.noti-show-green{
+    background-color: rgba(37, 248, 14, 0.812);
+}
+
+/* ------------------------------------------------------- */
+
+.icon-br-container{
+    position: relative;
+    bottom: 12px;
+    display: inline-block;
+}

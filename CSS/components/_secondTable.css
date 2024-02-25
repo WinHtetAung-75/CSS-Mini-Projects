@@ -1,0 +1,56 @@
+.second-table{
+    /* border: 2px solid black; */
+    width: 1000px;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+.first-heading{
+    background-color: rgb(5, 35, 52) !important;
+    font-size: larger;
+}
+
+.second-heading{
+    background-color: rgba(5, 35, 52, 0.15) !important;
+    font-size: medium;
+    color: black !important;
+}
+
+.comments{
+    text-align: justify;
+    white-space: wrap;
+}
+
+
+.profiles{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.table.second-table tbody td{
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 20px;
+}
+
+.table.second-table tbody tr:nth-child(even){
+    background-color: rgba(5, 35, 52, 0.15) !important;;
+}
+
+.table.second-table tbody tr:hover{
+    background-color:  rgba(5, 35, 52, 0.15);
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.table-btn{
+    background-color: rgba(0, 0, 255, 0.712);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, 0.712);
+    box-shadow: 3px 3px 10px black;
+}

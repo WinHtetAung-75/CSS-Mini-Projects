@@ -1,0 +1,82 @@
+.cards{
+    width: 700px;
+    margin: 30px auto;
+}
+
+.card-container{
+    display: inline-block;
+    width: 150px;
+    height: 280px;
+    border: 1px solid wheat;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.368);
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.card-img{
+    width:auto;
+    height: 119px;
+}
+
+.card-heading{
+    margin-top: 5px;
+    font-family: sans-serif;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: smaller;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.472);
+    margin-top: 2px;
+}
+
+.dollor{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 8px 0px;
+    font-size:small ;
+}
+
+.stars{
+    font-size: small;
+}
+
+.i-star{
+    margin-right: 5px;
+    color: rgba(0, 255, 21, 0.666);
+}
+
+.m-5{
+    margin-right: 5px;
+}
+
+.buy{
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.buy-blue-t{
+    background-color: rgba(0, 0, 255, 0.33);
+}
+
+.buy-black-t{
+    background-color: rgba(0, 0, 0, 0.602);
+}
+
+.buy-black{
+    background-color: rgba(0, 0, 0, 0.851);
+}
+
+.buy-yellow{
+    background-color:rgb(184, 66, 66);
+}
+
+.black-star{
+}

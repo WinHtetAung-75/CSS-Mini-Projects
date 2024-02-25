@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table UI Testing</title>
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <style>
+      body {
+        background-color: #e9ecf0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="heading">Table UI</h1>
+      <section>
+        <!-- <div class="table-container">
+          <table class="table">
+            <thead>
+              <th class="text-left">Full Name</th>
+              <th class="text-left">Age</th>
+              <th class="text-left">Job Title</th>
+              <th class="text-left">Location</th>
+            </thead>
+
+            <tbody class="tbody">
+              <tr>
+                <td>Win Htet Aung</td>
+                <td>22</td>
+                <td class="jd-b">Full Stack Developer</td>
+                <td>Taungdwingyi</td>
+              </tr>
+              <tr>
+                <td>Sandar Khaing</td>
+                <td>21</td>
+                <td class="jd-b">Andriod Developer</td>
+                <td>Magway</td>
+              </tr>
+              <tr>
+                <td>Htet Myat Aung</td>
+                <td>23</td>
+                <td class="jd-b">IOS Developer</td>
+                <td>Naypyitaw</td>
+              </tr>
+              <tr>
+                <td>Chit Zin Ko</td>
+                <td>24</td>
+                <td class="jd-b">Front-EndDeveloper</td>
+                <td>Mandalay</td>
+              </tr>
+              <tr>
+                <td>Xlaing Phyo Wai</td>
+                <td>35</td>
+                <td class="jd-b">Back-End Developer</td>
+                <td>Magway</td>
+              </tr>
+              <tr>
+                <td>Myat Noe Wai</td>
+                <td>19</td>
+                <td class="jd-b">Java Developer</td>
+                <td>Yangon</td>
+              </tr>
+              <tr>
+                <td>Su Su</td>
+                <td>35</td>
+                <td class="jd-b">Web Developer</td>
+                <td>Minbu</td>
+              </tr>
+              <tr>
+                <td>Aung Myat Thu</td>
+                <td>34</td>
+                <td class="jd-b">Tester</td>
+                <td>Minhla</td>
+              </tr>
+            </tbody>
+          </table>
+        </div> -->
+
+        <div class="table-container">
+          <table class="table table-red">
+            <thead>
+              <th class="text-left">Full Name</th>
+              <th class="text-left">Age</th>
+              <th class="text-left">Job Title</th>
+              <th class="text-left">Location</th>
+            </thead>
+
+            <tbody class="tbody">
+              <tr>
+                <td>Win Htet Aung</td>
+                <td>22</td>
+                <td class="jd-r">Full Stack Developer</td>
+                <td>Taungdwingyi</td>
+              </tr>
+              <tr>
+                <td>Sandar Khaing</td>
+                <td>21</td>
+                <td class="jd-r">Andriod Developer</td>
+                <td>Magway</td>
+              </tr>
+              <tr>
+                <td>Htet Myat Aung</td>
+                <td>23</td>
+                <td class="jd-r">IOS Developer</td>
+                <td>Naypyitaw</td>
+              </tr>
+              <tr>
+                <td>Chit Zin Ko</td>
+                <td>24</td>
+                <td class="jd-r">Front-EndDeveloper</td>
+                <td>Mandalay</td>
+              </tr>
+              <tr>
+                <td>Xlaing Phyo Wai</td>
+                <td>35</td>
+                <td class="jd-r">Back-End Developer</td>
+                <td>Magway</td>
+              </tr>
+              <tr>
+                <td>Myat Noe Wai</td>
+                <td>19</td>
+                <td class="jd-r">Java Developer</td>
+                <td>Yangon</td>
+              </tr>
+              <tr>
+                <td>Su Su</td>
+                <td>35</td>
+                <td class="jd-r">Web Developer</td>
+                <td>Minbu</td>
+              </tr>
+              <tr>
+                <td>Aung Myat Thu</td>
+                <td>34</td>
+                <td class="jd-r">Tester</td>
+                <td>Minhla</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- <div class="table-container">
+          <table class="table table-yellow">
+            <thead>
+              <th class="text-left">Full Name</th>
+              <th class="text-left">Age</th>
+              <th class="text-left">Job Title</th>
+              <th class="text-left">Location</th>
+            </thead>
+
+            <tbody class="tbody">
+              <tr>
+                <td>Win Htet Aung</td>
+                <td>22</td>
+                <td class="job-describe">Full Stack Developer</td>
+                <td>Taungdwingyi</td>
+              </tr>
+              <tr>
+                <td>Sandar Khaing</td>
+                <td>21</td>
+                <td class="job-describe">Andriod Developer</td>
+                <td>Magway</td>
+              </tr>
+              <tr>
+                <td>Htet Myat Aung</td>
+                <td>23</td>
+                <td class="job-describe">IOS Developer</td>
+                <td>Naypyitaw</td>
+              </tr>
+              <tr>
+                <td>Chit Zin Ko</td>
+                <td>24</td>
+                <td class="job-describe">Front-EndDeveloper</td>
+                <td>Mandalay</td>
+              </tr>
+              <tr>
+                <td>Xlaing Phyo Wai</td>
+                <td>35</td>
+                <td class="job-describe">Back-End Developer</td>
+                <td>Magway</td>
+              </tr>
+              <tr>
+                <td>Myat Noe Wai</td>
+                <td>19</td>
+                <td class="job-describe">Java Developer</td>
+                <td>Yangon</td>
+              </tr>
+              <tr>
+                <td>Su Su</td>
+                <td>35</td>
+                <td class="job-describe">Web Developer</td>
+                <td>Minbu</td>
+              </tr>
+              <tr>
+                <td>Aung Myat Thu</td>
+                <td>34</td>
+                <td class="job-describe">Tester</td>
+                <td>Minhla</td>
+              </tr>
+            </tbody>
+          </table>
+        </div> -->
+      </section>
+    </main>
+  </body>
+</html>

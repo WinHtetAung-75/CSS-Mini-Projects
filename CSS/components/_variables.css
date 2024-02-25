@@ -1,0 +1,13 @@
+:root{
+    --red:red;
+    --blue:blue;
+    --yellow:rgba(255, 255, 0, 0.512);
+    --yellow: rgba(255, 255, 0, 0.498);
+
+    --blue-row:rgba(0, 0, 255, 0.088);
+    --red-row:rgba(255, 0, 0, 0.085);
+    --yellow-row:rgba(255, 255, 0, 0.082);
+    --shadow-color: rgba(0, 0, 0, 0.42);
+
+    --border-bottom-color: rgba(0, 0, 0, 0.159);
+}

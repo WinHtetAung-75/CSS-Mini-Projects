@@ -1,0 +1,144 @@
+.main-div{
+    width: 630px;
+    height: 500px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.img-div{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    margin: 0;
+    background-image: url(../../img/login.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-div{
+    width: 300px;
+    height:450px ;
+    display: inline-block;
+    padding: 30px;
+    margin-right: 0;
+    position: relative;
+    bottom: 45px;
+    right: 0px; 
+    background-color: rgba(0, 0, 255, 0.095);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+}
+
+.form-heading{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 15px;
+}
+
+.label{
+    font-size: small;
+    position: relative;
+    bottom: 3px;
+}
+
+.form-btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+hr{
+    display: inline-block;
+    width: 103px;
+}
+
+.or-div{
+    margin-top: 15px;
+}
+
+.or{
+    position: relative;
+    bottom: 5px;
+    margin: 4px;
+}
+
+.gg-btn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 7px;
+    border: 1px solid wheat;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.463);
+}
+
+/* ------------------------------------- */
+
+.bg-image{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    padding:50px 30px;
+    color: aliceblue;
+    background-image: url(../../img/images\ \(2\).jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.b-b{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px 0px;
+    background-color: transparent;
+    color: white !important;
+}
+
+.sign{
+    margin-bottom: 30px;
+}
+
+.signin{
+    margin-right: 90px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.signup{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn-letter{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.s-btn{
+    background-color: pink;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 100px;
+
+}
+
+.forget-p{
+    font-size: small;
+    text-align: center;
+}
